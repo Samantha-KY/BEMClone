@@ -12,22 +12,22 @@
     display: flex; 
     gap: 6rem;
 }
-.nav__list__line{
+.nav__list-line{
     display: flex; 
     gap: 2rem;
 }
-.nav__list__side{
+.nav__list-side{
     display: flex;
     gap: 1rem;
     margin-top: 1rem;
     margin-right: 6rem;
 }
-.body{
+.body-section{
     display: flex; 
     flex-direction: column; 
     align-items: center;
 }
-.body__title{
+.body-section__title{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 800;
@@ -36,13 +36,13 @@
     text-align: center;
     margin-top: 5rem; 
 }
-.body__text{
+.body-section__text{
     font: normal;
     text-align: center;
     font-size: large;
     font-weight: 100;
 }
-.body__button{
+.body-section__button{
     display: flex; 
     gap: 2rem;
 }
@@ -163,11 +163,20 @@
 .address__inputs{
     display: grid; 
     grid-template-columns: auto auto; 
-    gap: 1rem
+    gap: 1rem;
+}
+.address__insert{
+    background: #F9F9F9;
+          border: 1px solid #BDBDBD;
+          border-radius: 5px; box-sizing: border-box; height: 50px;
+          left: 0.5px;
+          right: 0.5px;
+          top: 0px;
 }
 .address__desc{
-    display: grid; 
-    gap: 2rem;
+    display: grid;
+    grid-template-columns: auto; 
+    gap: 3rem;
 }
 .address__footer{
     display: flex; 
@@ -249,10 +258,21 @@
         gap: 3rem;
         margin-top: 2rem;
     }
+    .info__body{
+        position: relative;
+        height: 250px;
+        left: 0px;
+        right: 0px;
+        top: 300px;
+        width: 100%;
+        margin-top: 0px;
+        background: rgba(7, 163, 57, 0.5);
+        padding: 0 10px;
+    }
     .info__image{
         box-sizing: border-box;
         position: absolute;
-        width: 877px;
+        width: 100%;
         height: 442px;
         top: 3400px;
         background: #ffffff;
@@ -262,5 +282,38 @@
         order: 0;
         flex-grow: 0;
         flex-shrink: 0;
+    }
+    .about__card{
+        display: grid;
+        grid-template-columns: auto;
+        margin-top: 5rem;
+        gap: 2rem;
+    }
+    .team__card{
+        display: grid;
+        grid-template-columns: auto;
+        margin-top: 5rem;
+        gap: 2rem;
+    }
+    .address__info--view{
+        position: absolute; 
+        margin-left: 2rem; 
+        top: 50px;
+    }
+    .address__inputs{
+        display: grid; 
+        grid-template-columns: auto; 
+        gap: 1rem
+    }
+    .address__insert{
+        background: #F9F9F9;
+              border: 1px solid #BDBDBD;
+              border-radius: 5px; 
+              box-sizing: border-box; 
+              position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
     }
 }
