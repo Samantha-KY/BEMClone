@@ -178,6 +178,29 @@
     grid-template-columns: auto; 
     gap: 3rem;
 }
+.address__desc-input{
+    box-sizing: border-box;
+
+          width: 598px;
+          height: 140px;
+          
+          background: #F9F9F9;
+          
+          border: 1px solid #BDBDBD;
+          border-radius: 5px;
+}
+.address__button{
+    display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 15px 40px;
+          gap: 10px;
+          color: #F9F9F9;
+          width: 218px;
+          height: 58px; 
+          background: #FFA62B;
+          border-radius: 5px;
+}
 .address__footer{
     display: flex; 
     gap: 20rem; 
