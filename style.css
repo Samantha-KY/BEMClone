@@ -253,12 +253,12 @@
         display: flex; 
         gap: 3rem;
     }
-    .nav__list__line{
+    .nav__list-line{
         display: grid;
         gap:2rem;
         margin-top: 5rem;
     }
-    .nav__list__side{
+    .nav__list-side{
         display: flex;
         gap: 1rem;
         margin-top: 1rem;
